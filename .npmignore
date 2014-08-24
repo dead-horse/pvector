@@ -1,0 +1,6 @@
+benchmark/
+test/
+cov/
+src/
+Makefile
+covrage.html
