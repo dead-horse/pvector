@@ -23,9 +23,20 @@ vector for physics
 $ npm install pvector
 ```
 
-## API
-
 ## Examples
+
+```js
+var PVector = require('PVector');
+
+var v1 = PVector(1, 1);
+var v2 = PVector(2 ,2);
+
+v1.setMag(10).sub(v2).heading();
+```
+
+## Usage
+
+see: [PVector/test](https://github.com/dead-horse/pvector/blob/master/test/index.test.js)
 
 ### License
 
