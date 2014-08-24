@@ -15,9 +15,9 @@ var PVector = require('..');
 describe('PVector', function () {
   describe('fromAngle()', function () {
     it('should ok', function () {
-      var v = PVector.fromAngle(Math.PI / 2);
-      v.x.should.equal(0);
-      v.y.should.equal(1);
+      var v = PVector.fromAngle(0);
+      v.x.should.equal(1);
+      v.y.should.equal(0);
     });
   });
 
