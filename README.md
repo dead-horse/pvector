@@ -6,13 +6,13 @@ pvector
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
 
-[npm-image]: https://img.shields.io/npm/v/pvector.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/pvector.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/pvector
-[travis-image]: https://img.shields.io/travis/dead-horse/pvector.svg?style=flat
+[travis-image]: https://img.shields.io/travis/dead-horse/pvector.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dead-horse/pvector
-[coveralls-image]: https://img.shields.io/coveralls/dead-horse/pvector.svg?style=flat
+[coveralls-image]: https://img.shields.io/coveralls/dead-horse/pvector.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/dead-horse/pvector?branch=master
-[gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat
+[gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
 [gittip-url]: https://www.gittip.com/dead-horse/
 
 vector for physics
