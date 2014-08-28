@@ -15,6 +15,8 @@ pvector
 [gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
 [gittip-url]: https://www.gittip.com/dead-horse/
 
+[![browser support](https://ci.testling.com/dead-horse/pvector.png)](https://ci.testling.com/dead-horse/pvector)
+
 vector for physics
 
 ## Installation

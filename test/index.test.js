@@ -10,6 +10,7 @@
  * Module dependencies.
  */
 
+var should = require('should');
 var PVector = require('..');
 
 describe('PVector', function () {
