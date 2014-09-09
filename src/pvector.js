@@ -40,8 +40,7 @@ PVector.random2D = function (vector) {
   return vector;
 };
 
-
-PVector.prototype.set = function(x, y) {
+PVector.prototype.set = function (x, y) {
   this.x = x || 0;
   this.y = y || 0;
 };
@@ -157,6 +156,14 @@ PVector.prototype.heading = function () {
   }
 };
 
+PVector.prototype.rotate = function (a) {
+  var newHeading = this.heading() + a;
+  var mag = this.mag();
+  this.x = Math.cos(newHeading) * mag;
+  this.y = Math.sin(newHeading) * mag;
+  return this;
+};
+
 PVector.angleBetween = function (a, b) {
   // A dot B = (magnitude of A)*(magnitude of B)*cos(theta)
   var dot = a.dot(b);
@@ -167,6 +174,5 @@ PVector.prototype.angleBetween = function (other) {
   var dot = this.dot(other);
   return Math.acos(dot / (this.mag() * other.mag()));
 };
-
 },{}]},{},[1])(1)
 });
